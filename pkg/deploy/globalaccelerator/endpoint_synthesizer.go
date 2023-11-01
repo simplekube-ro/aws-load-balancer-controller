@@ -2,8 +2,9 @@ package globalaccelerator
 
 import (
 	"context"
+	"fmt"
 	"github.com/go-logr/logr"
-	"github.com/pkg/errors"
+	// "github.com/pkg/errors"
 	"sigs.k8s.io/aws-load-balancer-controller/pkg/model/core"
 	elbv2model "sigs.k8s.io/aws-load-balancer-controller/pkg/model/elbv2"
 	gamodel "sigs.k8s.io/aws-load-balancer-controller/pkg/model/globalaccelerator"
